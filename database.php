@@ -6,12 +6,13 @@ class database{
     private $dbh;
     private $user;
     private $pass;
+    private $db;
  
     function _construct($host){
          $this->host = 'localhost';
          $this->user = 'root';
          $this->pass = '';
-         $this->db ='Examenvoorbereiding2021';
+         $this->db ='Flowerpower';
  
          try {
              $dsn = "mysql:host=$this->;dbname=$this->db";
